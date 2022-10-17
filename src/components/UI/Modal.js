@@ -13,7 +13,7 @@ const Overlay = (props)=>{
     )
 }
 const Modal = (props)=>{
-    const elementID = document.getElementById('modals')
+    const elementID = document.getElementById('overlays')
     return(
         <>
             {ReactDOM.createPortal(<Background />, elementID)}
